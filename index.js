@@ -8,21 +8,18 @@
 //4. Create a variable called `max` that finds the highest number in a set; the
   // value returned should be `20`.
 
-  let num1 = 2
-  let num2 = 31
-  let multiply = num1 * num2;
-
-  Math.random();
-  const random = 1*2
-
+  let num1 = 4;
+  let num2 = 15.5;
+  const multiply = num1 * num2;
   
-  let num3 = 19;
+  let random = Math.floor(Math.random()*10);
+
+  let num3 = 20;
   let num4 = 5;
-  let mod = num3 % num4;
-
-  let max = 20;
-  Math.max(5,10,15,20);
+  let mod = num3 & num4;
   
+  let max = Math.max(4,8,12,16,20);
+
 
 
 
